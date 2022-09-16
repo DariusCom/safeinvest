@@ -2,7 +2,7 @@ import axios from "axios";
 
 const apiKey = process.env.REACT_APP_API_KEY;
 
-const API_URL = "/api/symbols";
+const API_URL = "https://safeinvest-backend.onrender.com/api/symbols";
 
 const formatFinancialData = (data) => {
   const result = {};
